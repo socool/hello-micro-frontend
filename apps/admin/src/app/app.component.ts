@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'badcompany-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: `
+    <badcompany-banner title="Welcome to our admin app."></badcompany-banner
+  `
 })
-export class AppComponent {
-  title = 'admin';
-}
+export class AppComponent {}
