@@ -10,14 +10,24 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@badcompany/common-ui": ["libs/common-ui/src/index.ts"],
-      "@badcompany/products": ["libs/products/src/index.ts"]
+      "@badcompany/common-ui": [
+        "libs/common-ui/src/index.ts"
+      ],
+      "@badcompany/products": [
+        "libs/products/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
